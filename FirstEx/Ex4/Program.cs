@@ -13,6 +13,8 @@ namespace Ex4
             int number2 = int.Parse(secondNumber);
             function(number1, number2);
         }
+         
+         //function that prints the numbers that are divisible with 5
             static void function(int number1,int number2)
             {
                 for (int i = number1; i <= number2; i++)
